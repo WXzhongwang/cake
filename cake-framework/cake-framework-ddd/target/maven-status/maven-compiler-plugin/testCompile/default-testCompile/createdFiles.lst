@@ -1,0 +1,5 @@
+com/cake/framework/ddd/domain/repository/WorkOrderRepository.class
+com/cake/framework/ddd/domain/repository/WorkOrderRepositoryImpl.class
+com/cake/framework/ddd/domain/dp/WorkOrderName.class
+com/cake/framework/ddd/domain/aggregate/WorkOrder.class
+com/cake/framework/ddd/domain/pk/WorkOrderId.class

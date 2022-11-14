@@ -1,0 +1,3 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.cake.framework.fast.bizflow.BizFlowReporterRegister,\
+com.cake.framework.fast.bizflow.BizFlowRegister

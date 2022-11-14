@@ -1,0 +1,10 @@
+/Users/tutu/workspace/cake/cake-framework/cake-framework-cqrs/src/test/java/com/cake/framework/cqrs/command/TestCommand.java
+/Users/tutu/workspace/cake/cake-framework/cake-framework-cqrs/src/test/java/com/cake/framework/cqrs/CommonBusTest.java
+/Users/tutu/workspace/cake/cake-framework/cake-framework-cqrs/src/test/java/com/cake/framework/cqrs/QueryBusTest.java
+/Users/tutu/workspace/cake/cake-framework/cake-framework-cqrs/src/test/java/com/cake/framework/cqrs/query/TestQuery.java
+/Users/tutu/workspace/cake/cake-framework/cake-framework-cqrs/src/test/java/com/cake/framework/cqrs/events/TestEvent.java
+/Users/tutu/workspace/cake/cake-framework/cake-framework-cqrs/src/test/java/com/cake/framework/cqrs/EventBusTest.java
+/Users/tutu/workspace/cake/cake-framework/cake-framework-cqrs/src/test/java/com/cake/framework/cqrs/command/TestAsyncCommand.java
+/Users/tutu/workspace/cake/cake-framework/cake-framework-cqrs/src/test/java/com/cake/framework/cqrs/events/TestEvent2.java
+/Users/tutu/workspace/cake/cake-framework/cake-framework-cqrs/src/test/java/com/cake/framework/cqrs/query/Result.java
+/Users/tutu/workspace/cake/cake-framework/cake-framework-cqrs/src/test/java/com/cake/framework/cqrs/events/TestEvent1.java

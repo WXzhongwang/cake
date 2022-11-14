@@ -1,0 +1,9 @@
+/Users/tutu/workspace/cake/cake-framework/cake-framework-ddd/src/main/java/com/cake/framework/ddd/repository/Repository.java
+/Users/tutu/workspace/cake/cake-framework/cake-framework-ddd/src/main/java/com/cake/framework/ddd/base/Identifiable.java
+/Users/tutu/workspace/cake/cake-framework/cake-framework-ddd/src/main/java/com/cake/framework/ddd/base/Identifier.java
+/Users/tutu/workspace/cake/cake-framework/cake-framework-ddd/src/main/java/com/cake/framework/ddd/base/BaseEntity.java
+/Users/tutu/workspace/cake/cake-framework/cake-framework-ddd/src/main/java/com/cake/framework/ddd/base/BaseValueObject.java
+/Users/tutu/workspace/cake/cake-framework/cake-framework-ddd/src/main/java/com/cake/framework/ddd/base/IEntity.java
+/Users/tutu/workspace/cake/cake-framework/cake-framework-ddd/src/main/java/com/cake/framework/ddd/base/IAggregate.java
+/Users/tutu/workspace/cake/cake-framework/cake-framework-ddd/src/main/java/com/cake/framework/ddd/base/BaseAggregateRoot.java
+/Users/tutu/workspace/cake/cake-framework/cake-framework-ddd/src/main/java/com/cake/framework/ddd/event/DomainEvent.java

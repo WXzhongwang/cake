@@ -1,0 +1,5 @@
+/Users/tutu/workspace/cake/cake-fast/cake-boot-starter-cqrs/src/main/java/com/cake/framework/fast/cqrs/config/BusConfiguration.java
+/Users/tutu/workspace/cake/cake-fast/cake-boot-starter-cqrs/src/main/java/com/cake/framework/fast/cqrs/factory/CommandBusFactoryBean.java
+/Users/tutu/workspace/cake/cake-fast/cake-boot-starter-cqrs/src/main/java/com/cake/framework/fast/cqrs/processor/BusRegisterProcessor.java
+/Users/tutu/workspace/cake/cake-fast/cake-boot-starter-cqrs/src/main/java/com/cake/framework/fast/cqrs/factory/QueryBusFactoryBean.java
+/Users/tutu/workspace/cake/cake-fast/cake-boot-starter-cqrs/src/main/java/com/cake/framework/fast/cqrs/factory/EventBusFactoryBean.java

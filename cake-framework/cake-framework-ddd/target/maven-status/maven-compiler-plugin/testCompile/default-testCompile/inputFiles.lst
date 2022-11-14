@@ -1,0 +1,5 @@
+/Users/tutu/workspace/cake/cake-framework/cake-framework-ddd/src/test/java/com/cake/framework/ddd/domain/aggregate/WorkOrder.java
+/Users/tutu/workspace/cake/cake-framework/cake-framework-ddd/src/test/java/com/cake/framework/ddd/domain/repository/WorkOrderRepository.java
+/Users/tutu/workspace/cake/cake-framework/cake-framework-ddd/src/test/java/com/cake/framework/ddd/domain/pk/WorkOrderId.java
+/Users/tutu/workspace/cake/cake-framework/cake-framework-ddd/src/test/java/com/cake/framework/ddd/domain/dp/WorkOrderName.java
+/Users/tutu/workspace/cake/cake-framework/cake-framework-ddd/src/test/java/com/cake/framework/ddd/domain/repository/WorkOrderRepositoryImpl.java

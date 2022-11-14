@@ -1,0 +1,10 @@
+cake:
+  bizflow:
+    enabled: true
+  report:
+    enabled: false
+    config:
+      topic: "car-life"
+      endpoint: "foobar.com:8080"
+      accessKey: ak
+      accessSecret: sk

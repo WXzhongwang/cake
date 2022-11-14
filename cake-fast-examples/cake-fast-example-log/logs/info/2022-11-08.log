@@ -1,0 +1,4 @@
+2022-11-08 23:44:12,266 [main] INFO  [com.cake.framework.log.agent.CakeAgent] - 【CakeLogAgent】install done....
+2022-11-08 23:44:12,328 [main] INFO  [com.cake.fast.example.log.BastTests] - Starting BastTests using Java 1.8.0_301 on YjxMacBook-Pro.local with PID 50409 (started by tutu in /Users/tutu/workspace/cake/cake-fast-examples/cake-fast-example-log)
+2022-11-08 23:44:12,328 [main] INFO  [com.cake.fast.example.log.BastTests] - No active profile set, falling back to 1 default profile: "default"
+2022-11-08 23:44:14,136 [main] INFO  [com.cake.fast.example.log.BastTests] - Started BastTests in 2.86 seconds (JVM running for 4.115)

@@ -1,0 +1,43 @@
+{
+  "groups": [
+    {
+      "name": "cake.bizflow",
+      "type": "com.cake.framework.fast.bizflow.BizFlowConfigProperties",
+      "sourceType": "com.cake.framework.fast.bizflow.BizFlowConfigProperties"
+    },
+    {
+      "name": "cake.report.config",
+      "type": "com.cake.framework.fast.bizflow.ReporterProperties",
+      "sourceType": "com.cake.framework.fast.bizflow.BizFlowReporterRegister",
+      "sourceMethod": "reporterProperties()"
+    }
+  ],
+  "properties": [
+    {
+      "name": "cake.bizflow.enabled",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.cake.framework.fast.bizflow.BizFlowConfigProperties"
+    },
+    {
+      "name": "cake.report.config.access-key",
+      "type": "java.lang.String",
+      "sourceType": "com.cake.framework.fast.bizflow.ReporterProperties"
+    },
+    {
+      "name": "cake.report.config.access-secret",
+      "type": "java.lang.String",
+      "sourceType": "com.cake.framework.fast.bizflow.ReporterProperties"
+    },
+    {
+      "name": "cake.report.config.endpoint",
+      "type": "java.lang.String",
+      "sourceType": "com.cake.framework.fast.bizflow.ReporterProperties"
+    },
+    {
+      "name": "cake.report.config.topic",
+      "type": "java.lang.String",
+      "sourceType": "com.cake.framework.fast.bizflow.ReporterProperties"
+    }
+  ],
+  "hints": []
+}
