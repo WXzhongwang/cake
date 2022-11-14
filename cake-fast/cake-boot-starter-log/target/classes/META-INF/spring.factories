@@ -1,2 +1,0 @@
-org.springframework.context.ApplicationContextInitializer=\
-  com.cake.framework.fast.log.LogAgentInitializer

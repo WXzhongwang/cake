@@ -1,5 +1,0 @@
-com/cake/framework/fast/cqrs/processor/BusRegisterProcessor.class
-com/cake/framework/fast/cqrs/config/BusConfiguration.class
-com/cake/framework/fast/cqrs/factory/CommandBusFactoryBean.class
-com/cake/framework/fast/cqrs/factory/QueryBusFactoryBean.class
-com/cake/framework/fast/cqrs/factory/EventBusFactoryBean.class

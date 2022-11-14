@@ -1,9 +1,0 @@
-com/cake/framework/ddd/base/IEntity.class
-com/cake/framework/ddd/base/Identifier.class
-com/cake/framework/ddd/base/BaseAggregateRoot.class
-com/cake/framework/ddd/base/Identifiable.class
-com/cake/framework/ddd/base/BaseValueObject.class
-com/cake/framework/ddd/repository/Repository.class
-com/cake/framework/ddd/base/BaseEntity.class
-com/cake/framework/ddd/base/IAggregate.class
-com/cake/framework/ddd/event/DomainEvent.class
