@@ -7,6 +7,7 @@ cake-fast
  -- cake-boot-starter-bizflow      bizflow starter(基于CQRS实现)
  -- cake-boot-starter-cqrs         cqrs starter
  -- cake-boot-starter-log          log starter
+ -- cake-boot-starter-mybatis      mybatis starter
 cake-fast-examples                 DEMO
  -- cake-fast-example-cqrs         DEMO CQRS
  -- cake-fast-example-log          DEMO - LOG
