@@ -12,7 +12,7 @@ import com.cake.framework.cqrs.base.Query;
  */
 public class TestQuery<Result> implements Query<Result> {
 
-    private String name;
+    private final String name;
 
     public TestQuery(String name) {
         this.name = name;

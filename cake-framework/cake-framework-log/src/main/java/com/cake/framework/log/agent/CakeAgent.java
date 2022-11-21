@@ -26,7 +26,7 @@ public class CakeAgent {
 
     private static AgentBuilder agentBuilder = new AgentBuilder.Default();
 
-    private static AtomicBoolean installed = new AtomicBoolean(false);
+    private static final AtomicBoolean installed = new AtomicBoolean(false);
 
     public static void init() {
         if (!installed.compareAndSet(false, true)) {

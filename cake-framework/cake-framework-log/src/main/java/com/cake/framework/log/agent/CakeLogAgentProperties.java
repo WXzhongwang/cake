@@ -17,8 +17,8 @@ public class CakeLogAgentProperties {
     public static final String AGENT_LOG_SCAN_PACKAGE_EMPTY = "";
     public static final String AGENT_LOG_BIZ_DOMAIN = "agent.log.biz.domain";
     public static final String AGENT_LOG_DOMAIN_DEFAULT_VALUE = "cake";
-    private static List<String> scanPackages;
-    private static String bizDomain;
+    private static final List<String> scanPackages;
+    private static final String bizDomain;
 
     static {
         scanPackages = initScanPackages();

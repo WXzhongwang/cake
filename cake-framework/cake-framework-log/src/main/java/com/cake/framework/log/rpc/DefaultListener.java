@@ -25,8 +25,8 @@ public class DefaultListener implements Listener {
      */
     public static final Logger logger = CakeLogbackFactory.getInstance().getRpcLogger();
 
-    private Logger monitorLog;
-    private RpcLogConfig rpcLogConfig;
+    private final Logger monitorLog;
+    private final RpcLogConfig rpcLogConfig;
 
 
     public DefaultListener(RpcLogConfig rpcLogConfig) {

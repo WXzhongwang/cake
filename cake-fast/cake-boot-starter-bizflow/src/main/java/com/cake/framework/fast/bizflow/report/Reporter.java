@@ -34,8 +34,8 @@ import java.util.stream.Collectors;
  */
 @Slf4j
 public class Reporter {
-    private Producer producer;
-    private ReporterProperties reporterProperties;
+    private final Producer producer;
+    private final ReporterProperties reporterProperties;
 
     public Reporter(Producer producer, ReporterProperties reporterProperties) {
         this.producer = producer;

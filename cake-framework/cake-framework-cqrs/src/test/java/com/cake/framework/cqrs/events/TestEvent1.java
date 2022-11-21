@@ -12,7 +12,7 @@ import com.cake.framework.cqrs.base.Event;
  */
 public class TestEvent1 implements Event {
 
-    private String name;
+    private final String name;
 
     public TestEvent1(String name) {
         this.name = name;

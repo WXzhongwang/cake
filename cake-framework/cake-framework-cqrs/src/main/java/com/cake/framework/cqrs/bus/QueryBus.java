@@ -58,7 +58,7 @@ public class QueryBus {
     public <T> CompletableFuture<T> dispatchAsync(Query<T> query) {
         checkQuery(query);
         Invoker invoker = invokeRegistry.getInvoker(query);
-        return (CompletableFuture<T>) dispatcher.dispatchAsync(query, invoker);
+        return dispatcher.dispatchAsync(query, invoker);
     }
 
 

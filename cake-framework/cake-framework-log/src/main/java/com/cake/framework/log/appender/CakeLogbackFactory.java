@@ -41,7 +41,7 @@ public class CakeLogbackFactory implements CakeLogFactory {
     private static final String RPC_SERVER_MONITOR = "rpcServerMonitor";
     private static final String LOG_AGENT = "logAgent";
     private static final String USER_HOME = AppNameUtils.getUserHome();
-    private static CakeLogbackFactory cakeLogbackFactory = new CakeLogbackFactory();
+    private static final CakeLogbackFactory cakeLogbackFactory = new CakeLogbackFactory();
 
     /**
      * 维护单例
