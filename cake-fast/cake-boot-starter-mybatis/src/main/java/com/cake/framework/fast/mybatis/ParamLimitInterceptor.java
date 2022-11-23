@@ -32,7 +32,7 @@ import java.util.List;
 import java.util.Properties;
 
 /**
- * 打印SQL
+ * 参数拦截插件
  *
  * @author zhongshengwang
  * @description TODO
