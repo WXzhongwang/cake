@@ -1,6 +1,6 @@
-package com.cake.framework.ddd.base;
+package com.rany.cake.framework.common.base;
 
-import com.cake.framework.ddd.event.DomainEvent;
+import com.rany.cake.framework.common.event.DomainEvent;
 import lombok.Getter;
 import lombok.Setter;
 import org.springframework.data.annotation.Transient;

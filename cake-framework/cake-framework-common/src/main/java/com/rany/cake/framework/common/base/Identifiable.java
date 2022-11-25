@@ -1,6 +1,4 @@
-package com.cake.framework.ddd.base;
-
-import java.io.Serializable;
+package com.rany.cake.framework.common.base;
 
 /**
  * Identifier 主键标识
@@ -11,6 +9,13 @@ import java.io.Serializable;
  * @date 2022/10/31 22:14
  * @email 18668485565163.com
  */
-public interface Identifier extends Serializable {
+public interface Identifiable<ID extends Identifier> {
+
+    /**
+     * 获取主键ID
+     *
+     * @return
+     */
+    ID getId();
 
 }

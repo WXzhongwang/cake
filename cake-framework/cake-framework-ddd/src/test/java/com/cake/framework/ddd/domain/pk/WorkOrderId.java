@@ -1,6 +1,6 @@
 package com.cake.framework.ddd.domain.pk;
 
-import com.cake.framework.ddd.base.Identifier;
+import com.rany.cake.framework.common.base.Identifier;
 import lombok.Value;
 
 /**

@@ -15,7 +15,6 @@
         <module>cake-boot-starter-cqrs</module>
         <module>cake-boot-starter-log</module>
         <module>cake-boot-starter-bizflow</module>
-        <module>cake-boot-starter-mybatis</module>
     </modules>
 
     <properties>

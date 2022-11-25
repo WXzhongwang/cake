@@ -1,7 +1,7 @@
 package com.cake.framework.ddd.repository;
 
-import com.cake.framework.ddd.base.IAggregate;
-import com.cake.framework.ddd.base.Identifier;
+import com.rany.cake.framework.common.base.IAggregate;
+import com.rany.cake.framework.common.base.Identifier;
 
 import javax.validation.constraints.NotNull;
 

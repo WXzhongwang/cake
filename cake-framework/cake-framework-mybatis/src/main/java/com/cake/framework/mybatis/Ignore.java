@@ -1,4 +1,4 @@
-package com.cake.framework.fast.mybatis;
+package com.cake.framework.mybatis;
 
 import java.lang.annotation.*;
 

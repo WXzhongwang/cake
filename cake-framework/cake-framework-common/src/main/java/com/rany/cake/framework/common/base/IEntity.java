@@ -1,4 +1,4 @@
-package com.cake.framework.ddd.base;
+package com.rany.cake.framework.common.base;
 
 
 /**
