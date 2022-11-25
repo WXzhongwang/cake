@@ -1,6 +1,6 @@
 package com.cake.fast.bizflow.flow;
 
-import com.rany.cake.framework.common.bizflow.BizFlow;
+import com.cake.framework.common.bizflow.BizFlow;
 import org.springframework.stereotype.Component;
 
 /**

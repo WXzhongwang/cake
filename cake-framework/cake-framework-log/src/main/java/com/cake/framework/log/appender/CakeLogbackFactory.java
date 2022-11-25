@@ -1,7 +1,7 @@
 package com.cake.framework.log.appender;
 
 import ch.qos.logback.core.util.FileSize;
-import com.rany.cake.framework.common.utils.AppNameUtils;
+import com.cake.framework.common.utils.AppNameUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

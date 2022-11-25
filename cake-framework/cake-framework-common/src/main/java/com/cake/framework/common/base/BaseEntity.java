@@ -1,4 +1,4 @@
-package com.rany.cake.framework.common.base;
+package com.cake.framework.common.base;
 
 import lombok.Getter;
 import lombok.Setter;
@@ -6,18 +6,16 @@ import lombok.Setter;
 import java.util.Date;
 
 /**
- * 值对象
+ * 实体
  *
  * @author zhongshengwang
- * @description 值对象
+ * @description 实体
  * @date 2022/10/31 23:44
  * @email 18668485565163.com
  */
 @Getter
 @Setter
-public abstract class BaseValueObject<T> {
-
-    protected T id;
+public abstract class BaseEntity {
 
     protected Date gmtCreate;
 

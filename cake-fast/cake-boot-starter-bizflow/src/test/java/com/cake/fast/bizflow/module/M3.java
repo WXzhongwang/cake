@@ -1,7 +1,7 @@
 package com.cake.fast.bizflow.module;
 
 import com.cake.fast.bizflow.flow.CreateWorkOrderFlow;
-import com.rany.cake.framework.common.bizflow.BizModule;
+import com.cake.framework.common.bizflow.BizModule;
 import org.springframework.stereotype.Component;
 
 /**

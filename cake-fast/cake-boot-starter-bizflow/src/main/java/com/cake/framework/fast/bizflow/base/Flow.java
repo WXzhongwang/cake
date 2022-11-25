@@ -1,7 +1,7 @@
 package com.cake.framework.fast.bizflow.base;
 
-import com.rany.cake.framework.common.bizflow.App;
-import com.rany.cake.framework.common.bizflow.BizFlow;
+import com.cake.framework.common.bizflow.App;
+import com.cake.framework.common.bizflow.BizFlow;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 

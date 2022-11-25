@@ -1,4 +1,4 @@
-package com.rany.cake.framework.common.event;
+package com.cake.framework.common.event;
 
 import lombok.ToString;
 

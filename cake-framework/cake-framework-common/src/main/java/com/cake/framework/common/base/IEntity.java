@@ -1,4 +1,4 @@
-package com.rany.cake.framework.common.base;
+package com.cake.framework.common.base;
 
 
 /**

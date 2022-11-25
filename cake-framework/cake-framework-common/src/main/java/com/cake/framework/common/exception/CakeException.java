@@ -1,4 +1,4 @@
-package com.rany.cake.framework.common.exception;
+package com.cake.framework.common.exception;
 
 /**
  * TODO

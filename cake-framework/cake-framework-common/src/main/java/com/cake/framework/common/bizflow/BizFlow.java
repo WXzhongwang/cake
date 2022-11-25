@@ -1,4 +1,4 @@
-package com.rany.cake.framework.common.bizflow;
+package com.cake.framework.common.bizflow;
 
 import java.lang.annotation.*;
 
@@ -14,18 +14,19 @@ import java.lang.annotation.*;
 @Retention(RetentionPolicy.RUNTIME)
 @Target({ElementType.TYPE})
 @Documented
-public @interface BizModule {
+public @interface BizFlow {
 
     /**
-     * 业务模块名称
+     * 业务流名称
      *
-     * @return 业务模块名称
+     * @return 业务流名称
      */
     String name();
 
-    Class[] parents();
-
-    String role();
-
-    Class flow();
+    /**
+     * 版本
+     *
+     * @return 版本信息
+     */
+    String version();
 }

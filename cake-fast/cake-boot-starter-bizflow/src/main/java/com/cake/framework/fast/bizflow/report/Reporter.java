@@ -9,7 +9,7 @@ import com.cake.framework.fast.bizflow.BizFlowHub;
 import com.cake.framework.fast.bizflow.ReporterProperties;
 import com.cake.framework.fast.bizflow.base.Flow;
 import com.cake.framework.fast.bizflow.base.Node;
-import com.rany.cake.framework.common.utils.AppNameUtils;
+import com.cake.framework.common.utils.AppNameUtils;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.collections4.CollectionUtils;
 import org.apache.commons.lang3.StringUtils;

@@ -1,5 +1,6 @@
 package com.cake.framework.fast.bizflow.report;
 
+import com.cake.framework.common.bizflow.BizModule;
 import com.cake.framework.cqrs.base.CommandHandler;
 import lombok.Data;
 
@@ -24,7 +25,7 @@ public class HandlerInfo implements Serializable {
     /**
      * handler所在的module bean的className, 被
      *
-     * @see com.rany.cake.framework.common.bizflow.BizModule 注解的类
+     * @see BizModule 注解的类
      */
     private String module;
 

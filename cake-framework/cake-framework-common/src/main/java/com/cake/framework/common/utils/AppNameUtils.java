@@ -1,4 +1,4 @@
-package com.rany.cake.framework.common.utils;
+package com.cake.framework.common.utils;
 
 import java.io.File;
 
