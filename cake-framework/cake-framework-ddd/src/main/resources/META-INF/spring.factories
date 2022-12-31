@@ -1,2 +1,4 @@
 org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-com.cake.framework.mybatis.DomainEventsInterceptor
+com.cake.framework.mybatis.DomainEventsInterceptor,\
+com.cake.framework.mybatis.ParamLimitInterceptor,\
+com.cake.framework.mybatis.SqlPrintInterceptor
