@@ -16,23 +16,32 @@ import java.io.Serializable;
  */
 @Getter
 @Setter
-public class Response implements Serializable {
+public abstract class Response implements Serializable {
 
-    private Boolean success = true;
+    protected Boolean success = true;
 
-    private String errorCode = "200";
+    protected String code = "200";
 
-    private String errorMessage = "success";
+    protected String msg = "success";
 
     public Response() {
     }
 
-    @Override
-    public String toString() {
-        return new ToStringBuilder(this)
-                .append("success", success)
-                .append("errorCode", errorCode)
-                .append("errorMessage", errorMessage)
-                .toString();
+    public Response(boolean success) {
+        this.success = success;
+        this.code = "200";
+        this.msg = "处理成功";
+    }
+
+    public Response(String code, String msg) {
+        this.success = false;
+        this.code = code;
+        this.msg = msg;
+    }
+
+    public Response(boolean success, String code, String msg) {
+        this.success = success;
+        this.code = code;
+        this.msg = msg;
     }
 }

@@ -2,6 +2,7 @@ package com.cake.framework.common.response;
 
 import lombok.Getter;
 import lombok.Setter;
+import org.apache.commons.lang3.builder.ToStringBuilder;
 
 import java.util.ArrayList;
 import java.util.Collection;
@@ -31,5 +32,33 @@ public class MapResult<K, V> extends Response {
         }
         this.getContent().put(key, val);
         return this;
+    }
+
+
+    public MapResult(boolean success, String code, String msg) {
+        super(success, code, msg);
+    }
+
+    public MapResult(boolean success, String code, String msg, Map<K, V> content) {
+        super(success, code, msg);
+        this.content = content;
+    }
+
+    public static <K, V> MapResult<K, V> succeed() {
+        return new MapResult<>(true, "200", "处理成功");
+    }
+
+    public static <K, V> MapResult<K, V> succeed(Map<K, V> data) {
+        return new MapResult<>(true, "200", "处理成功", data);
+    }
+
+    @Override
+    public String toString() {
+        return new ToStringBuilder(this)
+                .append("content", content)
+                .append("success", success)
+                .append("code", code)
+                .append("msg", msg)
+                .toString();
     }
 }
