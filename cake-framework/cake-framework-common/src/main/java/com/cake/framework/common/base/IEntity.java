@@ -2,7 +2,7 @@ package com.cake.framework.common.base;
 
 
 /**
- * BaseEntity
+ * IEntity
  *
  * @author zhongshengwang
  * @description TODO

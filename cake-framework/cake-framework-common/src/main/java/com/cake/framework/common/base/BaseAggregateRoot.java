@@ -23,7 +23,7 @@ import java.util.List;
  */
 @Getter
 @Setter
-public abstract class BaseAggregateRoot extends BaseEntity {
+public abstract class BaseAggregateRoot extends BaseModel {
 
     @Transient
     private transient final List<Object> domainEvents = new ArrayList<>();

@@ -15,8 +15,11 @@ import java.util.Date;
  */
 @Getter
 @Setter
-public abstract class BaseEntity<T> extends BaseModel{
+public abstract class BaseModel {
 
-    protected T id;
-    
+    protected Date gmtCreate;
+
+    protected Date gmtModified;
+
+    protected String isDeleted;
 }
