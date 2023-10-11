@@ -21,5 +21,9 @@ public abstract class BaseModel {
 
     protected Date gmtModified;
 
+    protected String creator;
+
+    protected String modifier;
+
     protected String isDeleted;
 }
