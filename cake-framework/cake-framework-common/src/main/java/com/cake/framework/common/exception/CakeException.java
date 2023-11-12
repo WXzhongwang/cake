@@ -1,10 +1,11 @@
 package com.cake.framework.common.exception;
 
 /**
- * TODO
+ * CakeException
+ * 框架层面使用的异常
  *
  * @author zhongshengwang
- * @description TODO
+ * @description CakeException
  * @date 2022/10/26 22:53
  * @email 18668485565163.com
  */
