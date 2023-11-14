@@ -18,6 +18,13 @@ cake-framework                     框架层
  -- cake-framework-log             日志(支持链路日志，暂未支持RPC, 后续计划支持，不过未找到类似鹰眼那种开箱即用，后补有机会补充)
 ```
 
+## 分层思考
+
+实践一段实践后，越加发现DDD是封包的艺术。
+![cake-ddd](https://github.com/WXzhongwang/cake/blob/main/DDD.png)
+
+
+
 
 ```text
 
