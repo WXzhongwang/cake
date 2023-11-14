@@ -20,7 +20,7 @@ cake-framework                     框架层
 
 ## 分层思考
 
-实践一段实践后，越加发现DDD是封包的艺术。
+实践一段实践后，越加发现DDD是分包的艺术。
 ![cake-ddd](https://github.com/WXzhongwang/cake/blob/main/DDD.png)
 
 
