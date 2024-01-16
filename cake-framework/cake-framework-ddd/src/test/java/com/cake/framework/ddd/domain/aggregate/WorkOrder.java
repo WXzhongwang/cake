@@ -20,7 +20,7 @@ import java.util.Date;
 @Data
 public class WorkOrder extends BaseAggregateRoot implements IAggregate<WorkOrderId> {
 
-    private WorkOrderId id;
+    private WorkOrderId workOrderId;
     
     /**
      * 这是一个典型的DP
@@ -28,10 +28,15 @@ public class WorkOrder extends BaseAggregateRoot implements IAggregate<WorkOrder
     private WorkOrderName workOrderName;
 
     public WorkOrder(WorkOrderId id, WorkOrderName workOrderName) {
-        this.id = id;
+        this.workOrderId = id;
         this.workOrderName = workOrderName;
         this.gmtCreate = new Date();
         this.gmtModified = new Date();
         this.isDeleted = "0";
+    }
+
+    @Override
+    public WorkOrderId getBizID() {
+        return workOrderId;
     }
 }

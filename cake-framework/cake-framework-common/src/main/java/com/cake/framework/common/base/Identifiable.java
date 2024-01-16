@@ -12,10 +12,10 @@ package com.cake.framework.common.base;
 public interface Identifiable<ID extends Identifier> {
 
     /**
-     * 获取主键ID
+     * 获取业务主键
      *
-     * @return
+     * @return 业务主键
      */
-    ID getId();
+    ID getBizID();
 
 }
