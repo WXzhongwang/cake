@@ -13,7 +13,7 @@ import lombok.Setter;
 
 @Getter
 @AllArgsConstructor
-public enum CommonReturnCode {
+public enum CommonReturnCode implements ResponseCode{
 
     SUCCESS("200", "处理成功"),
 
@@ -30,12 +30,21 @@ public enum CommonReturnCode {
 
     OPERATION_ILLEGAL("500", "非法操作");
 
-    @Setter
-    private String code;
+    private final String code;
 
     /**
      * 错误信息
      */
-    @Setter
-    private String message;
+
+    private final String message;
+
+    @Override
+    public String getErrorCode() {
+        return this.code;
+    }
+
+    @Override
+    public String getErrorMessage() {
+        return this.message;
+    }
 }
