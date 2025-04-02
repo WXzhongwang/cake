@@ -41,7 +41,7 @@ import java.util.Properties;
 @ConditionalOnBean({DataSource.class})
 @ConditionalOnClass({SqlSessionFactory.class, SqlSessionFactoryBean.class})
 @Component
-@ConditionalOnProperty(name = "enable.sql.print.log", havingValue = "true")
+@ConditionalOnProperty(name = "cake.mybatis.enable-print", havingValue = "true")
 @Intercepts({
         @Signature(type = Executor.class, method = "query",
                 args = {MappedStatement.class, Object.class, RowBounds.class, ResultHandler.class}),
@@ -52,9 +52,9 @@ import java.util.Properties;
 )
 public class SqlPrintInterceptor implements Interceptor {
 
-    @Value("${warn.sql.time:500}")
+    @Value("${cake.mybatis.threshold:500}")
     private long warnSql;
-    @Value("${enable.sql.print.log:false}")
+    @Value("${cake.mybatis.enable-print:false}")
     private boolean enablePrint;
 
     @Override

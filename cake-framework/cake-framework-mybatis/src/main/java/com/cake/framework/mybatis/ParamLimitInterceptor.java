@@ -25,6 +25,7 @@ import org.springframework.stereotype.Component;
 
 import java.lang.reflect.Method;
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.List;
 import java.util.Properties;
 
@@ -38,7 +39,7 @@ import java.util.Properties;
  */
 @Slf4j
 @Component
-@ConditionalOnProperty(name = "enable.sql.tenant.limit", matchIfMissing = true)
+@ConditionalOnProperty(name = "cake.mybatis.tenant-limit", matchIfMissing = true)
 @Intercepts({
         @Signature(type = Executor.class, method = "query",
                 args = {MappedStatement.class, Object.class, RowBounds.class, ResultHandler.class}),
@@ -51,7 +52,7 @@ public class ParamLimitInterceptor implements Interceptor {
     /**
      * SQL安全参数
      */
-    private static final List<String> NECESSARY_PARAM_NAMES = Arrays.asList("tenantId");
+    private static final List<String> NECESSARY_PARAM_NAMES = Collections.singletonList("tenantId");
     private static final String INSERT_METHOD = "insert";
     private static final String PAGE_COUNT_METHOD_SUFFIX = "_COUNT";
 
